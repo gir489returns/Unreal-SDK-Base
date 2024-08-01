@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="SDK\Basic.cpp">
+      <Filter>Source\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\CoreUObject_functions.cpp">
+      <Filter>Source\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Engine_functions.cpp">
+      <Filter>Source\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\WitchfireDrop_functions.cpp">
+      <Filter>Source\SDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDK.hpp">
+      <Filter>Headers\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonVariables.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternScanner.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{eca5860c-beb9-4ea5-9eb5-681197fe8a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SDK">
+      <UniqueIdentifier>{3f5e9a9e-6c90-43f9-ad87-6231c4bc611a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{1843c770-5bcf-4af0-962b-975fe5138ca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\SDK">
+      <UniqueIdentifier>{0e1b46fe-8a16-4587-a0d7-8be6ebbce4a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
