@@ -119,7 +119,7 @@ struct PatternScanner
 
 		std::stringstream ss;
 		ss << "Failed to find " << (debugName) ? debugName : patternStr;
-		MessageBoxA(NULL, ss.str().c_str(), "NoResourcesForWorkshop SIGNATURE FAILURE!", MB_ICONERROR | MB_OK);
+		MessageBoxA(NULL, ss.str().c_str(), "SIGNATURE FAILURE!", MB_ICONERROR | MB_OK);
 
 		return { 0 };
 	}
